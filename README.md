@@ -8,19 +8,19 @@
 ## 2. Buatlah gambar diagram class dan dua buah objek dari class Person bernama Antor dan Riko!
 - Diagram Class
 
-  ![Diagram Class](https://github.com/user-attachments/assets/0a677f6d-3132-4597-9770-09e83269b8d1)
+  ![Diagram Class](diagramclass.png)
 
 - Diagram Objek
 | Person | Nama | Jenis Kelamin | Umur |
 |:------ |:---- |:------------- |:----:|
-| Antor  | Antor| L             | 25   |
+| Anton  | Anton| L             | 25   |
 | Riko   | Riko | L             | 35   |
 Objek Antor dan Riko adalah instance dari class Person, yang dimana atribut seperti nama, jenis kelamin, dan umur di isi biodata mereka
 
-## 3. uatlah gambar diagram objek AkunBank dengan instance method simpanUang, ambilUang dan cekSaldo
+## 3. Buatlah gambar diagram objek AkunBank dengan instance method simpanUang, ambilUang dan cekSaldo
 - Diagram Class
 
-  ![Diagram Class (2)](https://github.com/user-attachments/assets/a762312d-2455-432b-8d30-c88ca831040a)
+  ![Diagram Class (2)](diagramAkunBank.png)
 
 - Diagram Objek
 | Akun saya : AkunBank |
@@ -33,7 +33,7 @@ Objek Antor dan Riko adalah instance dari class Person, yang dimana atribut sepe
 # LATIHAN 2
 ## 1. Mendeklarasikan class Person, dengan atribut Nama, JenisKelamin, Umur
 
-![Screenshot 2024-10-09 194722](https://github.com/user-attachments/assets/c7a71555-c265-4e71-bbb0-d737196d71c7)
+![Class Person](classperson1.png)
 
 Atribut nama, jenisKelamin, dan umur dideklarasikan sebagai bagian dari class Person. Setiap objek dari class ini akan memiliki ketiga atribut tersebut.
 - String nama akan menyimpan nama seseorang.
@@ -42,12 +42,11 @@ Atribut nama, jenisKelamin, dan umur dideklarasikan sebagai bagian dari class Pe
   
 ## 2. Buatlah dua buah objek dari class Person bernama Anton dan Riko
 
-![Screenshot 2024-10-09 194916](https://github.com/user-attachments/assets/4511a013-8712-4348-82a7-136116f96100)
-
+![Class Person](classperson2.png)
 Ketika kita membuat objek dari class Person, kita harus memberikan nilai untuk nama, jenisKelamin, dan umur. Nilai-nilai ini kemudian disimpan dalam atribut yang sesuai menggunakan keyword this.
 - this.nama = nama; berarti kita menetapkan nilai yang diterima sebagai argumen nama ke atribut nama milik objek yang sedang dibuat.
 
-![Screenshot 2024-10-09 195140](https://github.com/user-attachments/assets/a9820886-d560-4924-ada7-f47d194768b6)
+![Class Person](classperson3.png)
 
 - Ketika metode ini dipanggil, program akan mencetak nilai dari atribut nama, jenisKelamin, dan umur pada konsol.
 - Di dalam metode main, kita membuat dua objek dari class Person, yaitu anton dan riko.
@@ -57,18 +56,17 @@ Ketika kita membuat objek dari class Person, kita harus memberikan nilai untuk n
 
 # Hasil Output
 
-![Screenshot 2024-10-09 195431](https://github.com/user-attachments/assets/72ebcc1f-ac73-4390-a419-2e8d509a3933)
+![Output](outputclassperson.png)
 Output ini menunjukkan bahwa atribut nama, jenisKelamin, dan umur dari masing-masing objek telah dicetak ke layar.
 
 # LATIHAN 3 
 ## 1. Mendeklarasikan class AkunBank dengan instance method simpanUang, ambilUang dan cekSaldo
 ## 2. Buat objek AkunBank dan tetapkan nilai saldo awal Rp. 100000, kemudian panggil 3 method tersebut dan tampilkan proses berikut:
-![Screenshot 2024-10-09 201012](https://github.com/user-attachments/assets/87ca1eb4-1815-4cd6-8e4a-348592875b9f)
+![contoh output](soalakunbank.png)
 
 ## Jawaban Soal 1 dan 2
-![Screenshot 2024-10-09 195732](https://github.com/user-attachments/assets/7243ff33-9ee0-4db6-a3e2-a988a343ca43)
-![Screenshot 2024-10-09 195756](https://github.com/user-attachments/assets/5b612b17-3cf9-4786-bee7-4ca6bbf5416f)
-![Screenshot 2024-10-09 195804](https://github.com/user-attachments/assets/74334528-0380-4023-b2ce-61beac4e69ab)
+![AkunBank](AkunBank1.png)
+![AkunBank](AkunBank2.png)
 
 1. Class AkunBank:
    - Atribut saldo digunakan untuk menyimpan saldo dari akun bank. Constructor 
@@ -87,7 +85,7 @@ Output ini menunjukkan bahwa atribut nama, jenisKelamin, dan umur dari masing-ma
 
 # Hasil Output
 
-![Screenshot 2024-10-09 201053](https://github.com/user-attachments/assets/eb5e1027-083a-454f-a9d6-a64b0943b18c)
+![Output AkunBank](outputAkunBank.png)
 
 - Program menampilkan pesan "Selamat Datang di Bank ABC" dan saldo awal Rp. 100000.
 - Setelah menyimpan uang sebesar Rp. 500000, saldo menjadi Rp. 600000.
